@@ -1,0 +1,120 @@
+body {
+    padding: 10px;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1544456566-9509b49cdda6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2hlbm5haSUyQyUyMGluZGlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+
+.index-post {
+    width: 1124px; transition: all 1.5s;
+    height: 364px; overflow: hidden; 
+    margin: auto;
+    display: block;
+    margin-top: 2%;
+    background-repeat: no-repeat;
+}
+.heading h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color:var(--white);
+    text-align: center;
+    text-shadow: var(--text-shadow);
+ }
+ .heading:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 11px 14px rgb(0 0 0 / 25%), 0 8px 20px rgb(0 0 0 / 10%);
+}
+
+.contener {
+    float: left;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 330px;
+    height: 500px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 0 #00000073;
+    transition: all 0.3s;
+    background-repeat: no-repeat;
+}
+
+.contener:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 11px 14px rgb(0 0 0 / 25%), 0 8px 20px rgb(0 0 0 / 10%);
+}
+
+.image-contener {
+    display: block;
+    width: 100%;
+    height: 160px;
+   
+    overflow: hidden;
+}
+
+.image-contener img {
+    width: 100%;
+}
+
+.meta-contener {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 10px;
+    padding: 10px 20px;
+}
+
+.meta-contener .title {
+    padding: 0;
+    margin: 0px 0;
+    font-size: 22px;
+    color: #0076b6;
+}
+
+.meta-contener .desc {
+    font-size: 13px;
+    text-align: center;
+    color: #373737;
+}
+
+.button-contener {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    height: 40px;
+}
+
+.button-contener .button {
+    width: 100%;
+    padding: 6px 0;
+    text-decoration: none;
+    background: linear-gradient(125deg, #00ff35 0%, #0091a7 60%);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s;
+
+}
+
+.button-contener .button:hover {
+    padding-left: 15px;
+}
+
+@media screen and (max-width:1124px){
+    .index-post{
+        width: 562px; height: 728px;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width:562px){
+    .index-post{
+        width: 281px; height: 1496px;
+        background-repeat: no-repeat;
+    }
+}
